@@ -1,0 +1,73 @@
+.container {
+    margin: 64px 0 48px 0;
+}
+
+.container__filme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--dark-shade);
+
+    padding: 24px 46px 32px 46px;
+
+    box-shadow: 32.8387px 24.5482px 79px
+    rgba(0, 0, 0, 0.15), 23.8851px 17.855px 53.2479px
+    rgba(0, 0, 0, 0.121406), 16.6246px 12.4276px 34.4391px
+    rgba(0, 0, 0, 0.10125), 10.9035px 8.15079px 21.3701px
+    rgba(0, 0, 0, 0.0867188), 6.56775px 4.90965px 12.8375px
+    rgba(0, 0, 0, 0.075), 3.46346px 2.58907px 7.6377px
+    rgba(0, 0, 0, 0.0632813), 1.4367px 1.07399px 4.56719px
+    rgba(0, 0, 0, 0.04875), 0.333519px 0.249318px 2.42246px
+    rgba(0, 0, 0, 0.0285938);
+}
+
+.container__filmeInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0 72px 0 64px;
+}
+
+.container__filmeNota {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 45px;
+    font-weight: 400;
+}
+
+.container__filmeNota--pontos {
+    border: none;
+    color: var(--pure-white);
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-weight: 400;
+}
+
+.container__filmeNota--pontos i{
+    color: var(--yellow);
+}
+
+.container__filmeNota--fav {
+    border: none;
+    color: var(--pure-white);
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-weight: 400;
+}
+
+.container__filmeNota--fav i {
+    color: var(--red);
+}
+
+.container__filmeSinopse {
+    color: var(--gray);
+}
