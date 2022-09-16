@@ -21,6 +21,19 @@
     rgba(0, 0, 0, 0.0285938);
 }
 
+.container__movieImage {
+    width: 92px;
+    height: 92px;
+    margin-right: 1rem;
+}
+
+.container__movieImage img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
 .container__filmeInfo {
     display: flex;
     flex-direction: column;
@@ -66,6 +79,12 @@
 
 .container__filmeNota--fav i {
     color: var(--red);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.container__filmeNota--fav i:hover {
+    transform: scale(1.1);
 }
 
 .container__filmeSinopse {
